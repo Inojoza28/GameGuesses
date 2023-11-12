@@ -114,11 +114,9 @@ button:hover {
 }
 body {
   
-    margin-top: 180px;
+    margin-top: 30px;
 }
-#restartButton {
-    margin-top: 248px;
-}
+
 input {
     padding: 9px;
     max-width: 600px;
