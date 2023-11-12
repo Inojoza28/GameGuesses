@@ -119,6 +119,12 @@ body {
 #restartButton {
     margin-top: 248px;
 }
+input {
+    padding: 9px;
+    max-width: 600px;
+    font-size: 16px;
+    border-radius: 12px;
+}
     }
 
 
