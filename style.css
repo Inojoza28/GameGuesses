@@ -111,6 +111,7 @@ button:hover {
    
     max-width: 900px;
     
+    
 }
 body {
   
@@ -118,9 +119,9 @@ body {
 }
 
 input {
-    padding: 9px;
+    padding: 10px;
     max-width: 600px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 12px;
 }
     }
