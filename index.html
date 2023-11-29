@@ -16,15 +16,16 @@
 <body>
 
     <div class="game">
-    <h1 style="background-color: #2222222d;">Adivinhe o Número!</h1>
-    <p>Escolha um número entre 1 e 100:</p>
-    <p>Você tem 7 tentativas</p>
-    <br>
-    <input type="number" id="numInput" min="1" max="100">
-    <button onclick="guessNumber()">Adivinhar</button>
-    <p id="message"></p>
-    <button id="restartButton" onclick="restartGame()" style="display: none";>Reiniciar Jogo</button>
-
+        <h1 style="background-color: #2222222d;">Adivinhe o Número!</h1>
+        <p>Escolha um número entre 1 e 100:</p>
+        <p id="attempts">Você tem 7 tentativas</p>
+        <br>
+        <input type="number" id="numInput" min="1" max="100" rows="20">
+        <button onclick="guessNumber()">Adivinhar</button>
+        <p id="message"></p>
+        <button id="restartButton" onclick="restartGame()" style="display: none";>Reiniciar Jogo</button>
+   
+    
     <footer>
         <div class="footer">
         <div class="rowend">
@@ -36,7 +37,7 @@
     </footer>
     <br>
 </div>
-
+</div>
  <script src="script.js"></script>
  
 </body>
