@@ -16,32 +16,22 @@
 <body>
 
     <div class="game">
-        <h1 style="background-color: #2222222d;">Adivinhe o Número!</h1>
+        <h1>Adivinhe o Número!</h1>
         <p>Escolha um número entre 1 e 100:</p>
         <p id="attempts">Você tem 7 tentativas</p>
         <br>
         <input type="number" id="numInput" min="1" max="100" rows="20">
-        <button onclick="guessNumber()">Adivinhar</button>
+        <button id="guessButton" onclick="guessNumber()">Adivinhar</button>
         <p id="message"></p>
-        <button id="restartButton" onclick="restartGame()" style="display: none";>Reiniciar Jogo</button>
-   
-    
-    <footer>
-        <div class="footer">
-        <div class="rowend">
-          <a href="https://www.linkedin.com/in/carlos-gabriel-inojoza-925444286/" target="_blank"><i class="fa fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/carlos.gabriiel/" target="_blank"><i class="fa fa-instagram"></i></a>
-        <a href="https://github.com/Inojoza28" target="_blank"><i class="fa fa-github"></i></a>
+        <button id="restartButton" onclick="restartGame()">Reiniciar Jogo</button>
+        
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/carlos-gabriel-inojoza-925444286/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/carlos.gabriiel/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/Inojoza28" target="_blank"><i class="fa fa-github"></i></a>
         </div>
-        </div>
-    </footer>
-    <br>
-</div>
-</div>
- <script src="script.js"></script>
- 
+    </div>
+
+    <script src="script.js"></script>
 </body>
-
-
-<!-- Feito por Carlos G. J. I. Santos -->
 </html>

@@ -1,99 +1,83 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Play', sans-serif;
+    background-color: #FA6B0D;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game {
+    background-color: #FFF9F4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-color: rgb(0, 0, 0);
-    margin-top: 152px;
+    max-width: 400px;
+    width: 100%;
+}
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 28px;
+    margin-top: 0;
+    color: #333333;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+p {
+    color: #666666;
+    font-size: 18px;
+    margin: 10px 0;
+}
+input[type="number"] {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+button:hover {
+    background-color: #45a049;
+}
+#message {
+    font-weight: bold;
+    margin-top: 20px;
 }
 #restartButton {
+    background-color: #f44336;
     display: none;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 210px;
+    margin-top: 20px;
 }
- .game{
-    border:4px double #111;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: 0 auto;
-   padding: 30px;
- }
-h1 {
-    color: #fff;
-    font-weight: bold;
-    filter: drop-shadow(4px 2px 2px #333);  
+#restartButton:hover {
+    background-color: #d32f2f;
 }
-
-p {
-    color: #ffff;
-    font-weight: bold;
-    filter: drop-shadow(4px 2px 2px #333);  
+footer {
+    margin-top: 40px;
+}
+.footer {
+    text-align: center;
+}
+.footer a {
+    color: #555555;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    color: #777777;
 }
 
-input {
-    margin-top: 10px;
-    padding: 9px;
-    max-width: 400px;
-    font-size: 16px;
-    border-radius: 12px;
-}
 
-button {
-    padding: 8px 12px;
-    font-size: 16px;
-    margin-top: 10px;
-    background-color: rgb(0, 190, 41);
-    border-radius: 10px;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #21a300;
-}
-
-.footer{
-    padding:30px 0px;
-    font-family: 'Play', sans-serif;
-    text-align:center;
-    }
-    
-    .footer .rowend{
-    width:100%;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color:gray;
-    font-size:0.8em;
-    font-size: 14px;
-    }
-    
-    .footer .rowend a{
-    text-decoration:none;
-    color: #fff;
-    transition:0.5s;
-    }
-    
-    .footer .rowend a:hover{
-    color:#222;
-    }
-    
-    .footer .rowend ul{
-    width:100%;
-    }
-    
-    .footer .rowend ul li{
-    display:inline-block;
-    margin:0px 30px;
-    }
-    
-    .footer .rowend a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
-    
-    
     @media (max-width:720px){
     .footer{
     text-align:center;
@@ -126,6 +110,29 @@ input {
 }
     }
 
+.game {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+}
 
+.social-icons {
+    margin-top: 20px;
+}
 
-/* Feito por Carlos G. J. I. Santos */
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+    .game {
+        max-width: 85%;
+        padding: 20px;
+    }
+}
