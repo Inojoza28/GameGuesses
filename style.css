@@ -135,8 +135,14 @@ input {
         max-width: 85%;
         padding: 20px;
     }
-    #guessButton,
-    #restartButton {
-        font-size: 16px;
-    }
+
+     #guessButton,
+     #restartButton,
+     #playAgainButton {
+         font-size: 16px;
+     }
+ 
+     #playAgainButton {
+         padding: 12px 20px;
+     }
 }
