@@ -1,6 +1,6 @@
 body {
     font-family: 'Play', sans-serif;
-    background-color: #fa6b0de3;
+    background-color: #FA6B0D;
     margin: 0;
     padding: 0;
     display: flex;
@@ -46,6 +46,8 @@ button {
     cursor: pointer;
     margin-top: 10px;
     margin-left: 10px;
+    margin: 10px auto;
+    font-size: 16px;
 }
 button:hover {
     background-color: #45a049;
@@ -58,6 +60,7 @@ button:hover {
     background-color: #f44336;
     display: none;
     margin-top: 20px;
+    margin: 10px auto;
 }
 #restartButton:hover {
     background-color: #d32f2f;
@@ -140,6 +143,7 @@ input {
      #restartButton,
      #playAgainButton {
          font-size: 16px;
+    
      }
  
      #playAgainButton {
